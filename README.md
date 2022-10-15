@@ -99,8 +99,8 @@
 
 
 ### 💻 기술 스택
-**Front-End :** <img src="https://img.shields.io/badge/React Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=black"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <p>
-**Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> 
+**Front-End :** React-native & TypeScript     
+**Back-End :** Spring Boot & Java
 
 #### 기술 스택 선정 이유
 * Use Case 를 고려했을 때, 우리 서비스를 이용하는 고객은 실제 사용자(User)입니다. 
@@ -139,6 +139,20 @@ Spring은 최근의 트렌드, 혹은 더 나은 프로그래밍 방법을 찾�
 5️⃣ **직관적이고 유연한 프레임워크**                    
 스프링은 직관적인 API를 제공하며, 만들고자하는 애플리케이션의 요구사항과 목적에 따라 유연하게 적용시킬수 있습니다.
 
+### 📝 커밋 컨벤션
+
+**이슈 제목**
+[커밋 타입] 기능 설명 ex) [feat] 검색 뷰 통신 연결
+
+**커밋 메세지**
+feat: 새로운 기능 구현
+fix: 오류, 버그 해결
+add: feat 이외의 부수적인 코드 추가, 라이브러리 추가
+docs: Readme나 wiki 같은 문서 개정
+chore: 간단한 코드 수정, 내부 파일 수정
+rename: 파일 이름 변경이 있을 때 사용
+del: 쓸모없는 코드 삭제
+test: 테스트 코드 수정에 대한 커밋
 
 ### 🔍  아키텍처
 ![KakaoTalk_20221014_222429596](https://user-images.githubusercontent.com/115769126/195902499-86655519-bf4b-4741-b533-e74c242a8b93.png)
