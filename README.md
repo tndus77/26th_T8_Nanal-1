@@ -100,10 +100,7 @@
 
 ### 💻 기술 스택
 **Front-End :** <img src="https://img.shields.io/badge/React Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=black"/> <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <p>
-**Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> <p>
-**DB :** <img src="https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=MariaDB&logoColor=black"/> <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=Redis&logoColor=black"/> <P>
-**Management Tool :** <img src="https://img.shields.io/badge/Slack-4A154B?style=flat-square&logo=Slack&logoColor=white"/>
-<img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-000000?style=flat-square&logo=GitHub&logoColor=white"/> <P>
+**Back-End :** <img src="https://img.shields.io/badge/Spring Boot-6DB33F?style=flat-square&logo=Spring Boot&logoColor=white"/> <img src="https://img.shields.io/badge/IntelliJ IDEA-000000?style=flat-square&logo=IntelliJ IDEA&logoColor=white"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=Postman&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=Swagger&logoColor=white"/> 
 
 #### 기술 스택 선정 이유
 * Use Case 를 고려했을 때, 우리 서비스를 이용하는 고객은 실제 사용자(User)입니다. 
@@ -142,7 +139,27 @@ Spring은 최근의 트렌드, 혹은 더 나은 프로그래밍 방법을 찾�
 5️⃣ **직관적이고 유연한 프레임워크**                    
 스프링은 직관적인 API를 제공하며, 만들고자하는 애플리케이션의 요구사항과 목적에 따라 유연하게 적용시킬수 있습니다.
 
+### 📝 커밋 컨벤션
 
+**✨ 커밋 제목**
+- 최소한의 기능을 기준으로 issue를 생성
+- 이슈 이름은 `[커밋 타입] 기능 설명` 으로 통일
+ex) [feat] 검색 뷰 통신 연결
+- 이슈 템플릿을 활용해 작업 설명과 진행 상황을 작성
+- 진행 상황은 checkbox(todo)로 작성한다.
+
+**📌 커밋 메세지**
+<br> feat: 새로운 기능 구현
+<br> fix: 오류, 버그 해결
+<br> add: feat 이외의 부수적인 코드 추가, 라이브러리 추가
+<br> docs: README나 WIKI 같은 문서 개정
+<br> chore: 간단한 코드 수정, 내부 파일 수정
+<br> rename: 파일 이름 변경이 있을 때 사용
+<br> del: 쓸모없는 코드 삭제
+<br> style: 코드 스타일 혹은 포맷 등에 관한 커밋
+<br> refact:  코드 리팩토링에 대한 커밋
+<br> test : 테스트 코드 수정에 대한 커밋
+  
 ### 🔍  아키텍처
 ![KakaoTalk_20221014_222429596](https://user-images.githubusercontent.com/115769126/195902499-86655519-bf4b-4741-b533-e74c242a8b93.png)
 
